@@ -27,13 +27,24 @@ hr{
 }
 
 .mandatory{
-    color: red;
+    width: 35px;
+    background-color: rgb(255, 0, 106);
+    border-radius: 5px;
+    color:white;
 }
 
 .box select{
     width: 670px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
 }
 
 .company{
     text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
 }

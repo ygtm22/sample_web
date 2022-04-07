@@ -15,61 +15,58 @@
     <hr>
 
     <div class="border">
-        <p class="explanation">
+        <div class="explanation">
             Axizの研修をご利用いただき、誠にありがとございます。<br>
             以下の内容の記入及び送信をして頂けると幸いです。
-        </p>
+        </div>
         
         <p>
-        <label>会社名</label>
-        <div class="mandatory">
-            必須
-        </div>
-        <input type="text" name="name" placeholder="（例）株式会社テクノコア" size="95" maxlength="30">
+            <label for="company">会社名</label>
+            <label class="mandatory">
+                必須
+            </label>
+            <input type="text" name="name" placeholder="（例）株式会社テクノコア" size="95" maxlength="30">
         </p>
         
-        <p>
-        <label>お名前</label>
-        <div class="mandatory">
+        <label for="name">お名前</label>
+        <label class="mandatory">
             必須
-        </div>
+        </label>
         <input type="text" name="name" placeholder="（例）手久野　興亜" size="95" maxlength="30">
-        </p>
 
         <p>
-        <label>メールアドレス</label>
+        <label for="address">メールアドレス</label>
         <br>
         <input type="text" name="name" placeholder="（例）example@axiz.co.jp" size="95" maxlength="30">
         </p>
 
         <p>
-        <label>年齢</label>
+        <label for="sai">年齢</label>
         <br>
         <input type="text" name="name" value="23" size="2" maxlength="30">
         </p>
 
         <p>
-        <label>受験コース</label>
+        <label for="course">受験コース</label>
         <br>
         <input type="radio" name="course" name="Java">Java
         <input type="radio" name="course" name="infrastructure">インフラ
         </p>
 
         <p>
-        <label>会場</label>
-        <br>
-        <dev class="box">
+        <label for="classroom">会場</label>
+        <div class="box">
             <select>
                 <option value="classroom">日本橋A教室</option>
                 <option value="classroom">日本橋B教室</option>
                 <option value="classroom">東京教室</option>
                 <option value="classroom">沖縄教室</option>
             </select>
-        </dev>
+        </div>
         </p>
 
         <p>
-        <label>詳しく学びたい内容（複数回答可）</label>
+        <label for="contents">詳しく学びたい内容（複数回答可）</label>
         <br>
         <input type="checkbox" name="contents" value="check">ビジネスマナー<br>
         <input type="checkbox" name="contents" value="check">HTML/CSS<br>
@@ -80,7 +77,7 @@
         </p>
 
         <p>
-        <label>ご意見</label>
+        <label for="opinion">ご意見</label>
         <br>
         <textarea name="opinion" rows="10" cols="90">ご意見をご記入ください</textarea>
         </p>
@@ -93,7 +90,6 @@
     <p class="company">
         Copyright (C) Axiz
     </p>
-    
 </body>
 
 </html>
