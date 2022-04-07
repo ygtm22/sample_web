@@ -8,47 +8,92 @@
 </head>
 
 <body>
-    <dev class="hr">
-        <p class="questionnaire">
-            アンケート
-        </p>
-    </dev>
-    <br>
+    <p class="questionnaire">
+        アンケート
+    </p>
+
+    <hr>
+
     <div class="border">
-        <p>
+        <p class="explanation">
             Axizの研修をご利用いただき、誠にありがとございます。<br>
             以下の内容の記入及び送信をして頂けると幸いです。
         </p>
         
-        会社名
-        <dev class="mandatory">
+        <p>
+        <label>会社名</label>
+        <div class="mandatory">
             必須
-        </dev><br>
+        </div>
         <input type="text" name="name" placeholder="（例）株式会社テクノコア" size="95" maxlength="30">
-        <br>
+        </p>
         
-        お名前
-        <dev class="mandatory">
+        <p>
+        <label>お名前</label>
+        <div class="mandatory">
             必須
-        </dev><br>
+        </div>
         <input type="text" name="name" placeholder="（例）手久野　興亜" size="95" maxlength="30">
-        <br>
+        </p>
 
-        メールアドレス
+        <p>
+        <label>メールアドレス</label>
         <br>
         <input type="text" name="name" placeholder="（例）example@axiz.co.jp" size="95" maxlength="30">
-        <br>
+        </p>
 
-        年齢
+        <p>
+        <label>年齢</label>
         <br>
         <input type="text" name="name" value="23" size="2" maxlength="30">
-        <br>
+        </p>
 
-        受験コース
+        <p>
+        <label>受験コース</label>
         <br>
         <input type="radio" name="course" name="Java">Java
         <input type="radio" name="course" name="infrastructure">インフラ
-    </dev>
+        </p>
+
+        <p>
+        <label>会場</label>
+        <br>
+        <dev class="box">
+            <select>
+                <option value="classroom">日本橋A教室</option>
+                <option value="classroom">日本橋B教室</option>
+                <option value="classroom">東京教室</option>
+                <option value="classroom">沖縄教室</option>
+            </select>
+        </dev>
+        </p>
+
+        <p>
+        <label>詳しく学びたい内容（複数回答可）</label>
+        <br>
+        <input type="checkbox" name="contents" value="check">ビジネスマナー<br>
+        <input type="checkbox" name="contents" value="check">HTML/CSS<br>
+        <input type="checkbox" name="contents" value="check">JavaScript<br>
+        <input type="checkbox" name="contents" value="check">Java<br>
+        <input type="checkbox" name="contents" value="check">データベース<br>
+        <input type="checkbox" name="contents" value="check">Linux<br>
+        </p>
+
+        <p>
+        <label>ご意見</label>
+        <br>
+        <textarea name="opinion" rows="10" cols="90">ご意見をご記入ください</textarea>
+        </p>
+
+        <button type="submit">送信する</button>
+    </div>
+    
+    <hr>
+
+    <p class="company">
+        Copyright (C) Axiz
+    </p>
+    
 </body>
 
 </html>

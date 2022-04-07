@@ -2,9 +2,10 @@ body{
     background-color: rgb(152, 255, 255);
 }
 
-.hr{
-    margin-top: 200px;
-    border-bottom:  solid 1px blue;
+hr{
+    border: none;
+    height: 3px;
+   background-color: rgb(0, 140, 255);
 }
 
 .questionnaire{
@@ -12,7 +13,7 @@ body{
     text-align: center;
 }
 
-p{
+.explanation{
     text-align: center;
 }
 
@@ -27,4 +28,12 @@ p{
 
 .mandatory{
     color: red;
+}
+
+.box select{
+    width: 670px;
+}
+
+.company{
+    text-align: center;
 }
