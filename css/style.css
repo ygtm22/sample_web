@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(152, 255, 255);
+}
+
+.hr{
+    margin-top: 200px;
+    border-bottom:  solid 1px blue;
+}
+
+.questionnaire{
+    color: green;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.border{ 
+    width: 700px;
+    padding: 10px;
+    margin-left: 400px;
+    border: 3px solid #7b7b7b;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.mandatory{
+    color: red;
+}

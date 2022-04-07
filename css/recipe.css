@@ -1,0 +1,30 @@
+body{
+    background:url(C:/Users/axiz/Documents/Sample_Web/images/bg_Argyle.jpg);
+}
+
+.center{
+    text-align:center; 
+}
+
+.double_line{
+    display: inline-block;
+    padding: 5px;
+    border: double 10px red;
+}
+
+.heading{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+.border{ 
+    width: 700px; 
+    padding: 10px; 
+    margin-left: 400px; 
+    border: 1px solid #f548e6;
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+}

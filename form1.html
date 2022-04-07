@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+
+<body>
+    <dev class="heading">
+        <h1>質問・感想フォーム</h1>
+    </dev>
+    <br>
+    <div class="border">
+        <form method="post">
+            <p>
+                <label for="name">氏名</label><br>
+                <input type="text" name="name">
+            </p>
+            <p>
+            <label>性別</label><br>
+            <label><input type="radio" name="sei" name="male" checked>男</label>
+            <label><input type="radio" name="sei" name="female">女</label>
+            </p>
+            <p>
+                <label>年齢</label><br>
+                <select name="年齢">
+                    <option value="10 years old">10歳</option>
+                    <option value="20 years old">20歳</option>
+                    <option value="30 years old">30歳</option>
+                    <option value="40 years old">40歳</option>
+                    <option value="50 years old">50歳</option>
+                </select>
+            </p>
+            <p>
+                <label>今後見てみたいレシピ</label><br>
+                <input type="checkbox" name="recipe" value="check">和食
+                <input type="checkbox" name="recipe" value="check">中華
+                <input type="checkbox" name="recipe" value="check">洋食
+                <input type="checkbox" name="recipe" value="check">イタリアン
+                <input type="checkbox" name="recipe" value="check">スイーツ
+                <input type="checkbox" name="recipe" value="check">その他
+            </p>
+            <p>
+                <label>自由コメント欄</label><br>
+                <textarea name="free" rows="5" cols="50" placeholder="自由に意見を記述してください"></textarea>
+            </p>
+            <p>
+                <button type="submit">送信</button>
+                <button type="reset">取り消し</button>
+            </p>
+            </dev>
+        </form>
+</body>
+
+</html>
