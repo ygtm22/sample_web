@@ -26,5 +26,11 @@ p{
     margin-left: 400px; 
     border: 1px solid #f548e6;
     background-color: rgb(255, 251, 251);
+    border-radius: 20px;
+}
+
+.choice{
+    border:1px solid black;
     border-radius: 5px;
+    margin: 2px;
 }
